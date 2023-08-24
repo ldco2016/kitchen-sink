@@ -65,7 +65,6 @@ function SortableTable(props) {
         return (valueA - valueB) * reverseOrder;
       }
     });
-  } else {
   }
 
   return <Table {...props} data={sortedData} config={updatedConfig} />;
